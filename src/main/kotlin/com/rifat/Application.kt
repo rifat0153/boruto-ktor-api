@@ -1,5 +1,6 @@
 package com.rifat
 
+import com.example.plugins.configureDefaultHeader
 import io.ktor.application.*
 import com.rifat.plugins.*
 
@@ -12,5 +13,5 @@ fun Application.module() {
     configureRouting()
     configureSerialization()
     configureMonitoring()
-    configureDefaultHeaders()
+    configureDefaultHeader()
 }
