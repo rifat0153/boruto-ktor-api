@@ -1,0 +1,1 @@
+rootProject.name = "com.rifat.boruto-ktor-api"
